@@ -7,8 +7,24 @@
     <title>Calculo de Area de un terreno</title>
 </head>
 <body>
-    
+        <form>
+            <p>Calculo del Area de un terreno irregular</p>
+            <label>Lado A</label>
+            <input type="text">
+            <label>Lado B</label>
+            <input type="text">
+            <label>Lado C</label>
+            <input type="text">
+            <input type="submit" id="boton" value = "Calcular">
+        </form>
+        <div class="contenedorTerreno">
+            <div class="formaTerreno">
+                <p class="textoIzquiera">Lado A</p>
+                <div class="trapezoide"></div>
+                <p class="textoDerecha">Lado C</p>   
+            </div>
+            <p class="textoInferior">Lado B</p>
+        </div>
 </body>
-
 <script src="main.js"></script>
 </html>
