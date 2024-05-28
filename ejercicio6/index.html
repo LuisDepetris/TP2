@@ -1,1 +1,36 @@
-asd
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<!--Realice un formulario que permita ingresar el nombre, apellido, edad en años, 
+    altura en centímetros y correo electrónico de una persona. Al hacer click sobre un botón llamado ‘enviar’ 
+    este debe realizar las siguiente validaciones: 
+    • El nombre y apellido no pueden estar vacíos y deben ser de un máximo de 50 caracteres. 
+    • La edad no debe ser negativa pero también validar que no sea menor de edad. 
+    • La altura no puede ser negativa y no puede ser mayor a 230 (cm). 
+    • El correo electrónico no puede estar vacío y debe incluir el ‘@’. 
+    Mostrar en un elemento <p> un mensaje con el resultado de las validaciones. 
+        Si todas las validaciones son correctas mostrar el mensaje en verde, en caso contrario en rojo-->
+<body>
+    <form>
+        <label>Datos del Usuario</label>
+        <label>Nombre</label>
+        <input type="text">
+        <label>Apellido</label>
+        <input type="text">
+        <label>Edad</label>
+        <input type="text">
+        <label>Altura</label>
+        <input type="text">
+        <label>Email</label>
+        <input type="email">
+        <input type="submit" value="Enviar" id="boton">
+        <p>Validacion</p>
+    </form>
+</body>
+<script src="main.js"></script>
+</html>
