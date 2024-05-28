@@ -1,1 +1,1 @@
-algun texto en conflictos 1
+edito texto en conflictos 1 de la ramaConflicto2 para generar un error
