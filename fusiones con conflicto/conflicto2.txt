@@ -1,1 +1,1 @@
-algun texto en conflictos 2
+vuelvo a editar el archivo conflicto2 para generar un error
