@@ -1,1 +1,2 @@
 algun texto en el archivo 1
+edito el contenido del archivo 1 en la rama 1
