@@ -1,1 +1,1 @@
-algun texto en conflictos 1
+edito el texto en ramaConflicto1.
