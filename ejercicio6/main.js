@@ -62,7 +62,5 @@ window.onload = () => {
             lblValidacion.innerHTML = "Validacion Incorrecta"
             lblValidacion.style.color = "red"
         }
-       // 
-        //resultado.innerHTML = `El resultado del area es: ${areaChica + areaGrande}`
     }
 }
